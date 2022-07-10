@@ -1,0 +1,26 @@
+
+<html>
+
+<head>
+    <title> Money Gram</title>
+    <style>
+        #blink {
+            font-size: 150px;
+            font-weight: bold;
+            color: #2d38be;
+            transition: 0.5s;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <p id="blink"> Not Available at the moment </p>
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function() {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 1500);
+    </script>
+</body>
+</html>
