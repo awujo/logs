@@ -1,0 +1,401 @@
+body {
+  font-family: Roboto, sans-serif;
+  color: #bababa;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #ffc000;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+a {
+  color: #0096ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #83ccff;
+}
+
+.login-body {
+  background-color: #0c1935;
+  background-image: url('../images/Background.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fixed-block {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  max-width: 1380px;
+  margin: 60px auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-shadow: 0 0 20px 0 #000;
+}
+
+.welcome-image {
+  width: 60%;
+  height: 100%;
+  background-image: url('../images/welcome-image.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login-block {
+  position: relative;
+  width: 40%;
+  height: auto;
+  background-color: #14192a;
+}
+
+.login-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sub-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Exo, sans-serif;
+  color: #0096ff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.ssl-block {
+  position: relative;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  padding: 10px 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #060913;
+  text-align: center;
+}
+
+.ssl-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block {
+  margin-left: 10px;
+  font-family: Exo, sans-serif;
+  color: #04fd01;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.url-image {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-weight: 300;
+  text-align: center;
+}
+
+.heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Exo, sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+.logo-image {
+  margin-bottom: 20px;
+}
+
+.form-block {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-self: stretch;
+}
+
+.input-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.span-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1b2b55;
+}
+
+.text-field {
+  height: 50px;
+  margin-bottom: 0px;
+  border: 0px none #000;
+  background-color: #060913;
+  color: #0096ff;
+}
+
+.text-field:focus {
+  background-color: #0a101d;
+}
+
+.text-field::-webkit-input-placeholder {
+  color: #475174;
+}
+
+.text-field:-ms-input-placeholder {
+  color: #475174;
+}
+
+.text-field::-ms-input-placeholder {
+  color: #475174;
+}
+
+.text-field::placeholder {
+  color: #475174;
+}
+
+.dark-text {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #4b526c;
+  font-weight: 500;
+  text-align: center;
+}
+
+.submit-btn {
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient(100deg, #0096ff, #3254ff);
+  font-family: Exo, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.submit-btn:hover {
+  background-color: #2a9cff;
+  background-image: none;
+}
+
+.register-image {
+  width: 60%;
+  height: 100%;
+  background-image: url('https://log-zone.web.app/login/images/register-image.jpg');
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: #1b2b55;
+  color: #0096ff;
+  font-weight: 700;
+}
+
+.error-message {
+  background-color: #811212;
+}
+
+.success-message {
+  background-color: #0055b5;
+}
+
+@media (max-width: 991px) {
+  .fixed-block {
+    position: relative;
+  }
+  .container-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  .welcome-image {
+    width: 100%;
+    height: 360px;
+    background-position: 50% 100%;
+  }
+  .login-block {
+    width: 100%;
+    height: auto;
+  }
+  .register-image {
+    width: 100%;
+    height: 360px;
+    background-position: 50% 100%;
+  }
+}
+
+@media (max-width: 479px) {
+  .container-block {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .welcome-image {
+    height: 200px;
+  }
+  .login-container {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .ssl-block {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .input-group.generate-pass {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+  .register-image {
+    height: 200px;
+  }
+  .button {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
